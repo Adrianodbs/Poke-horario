@@ -1,0 +1,16 @@
+.container{
+  min-height: 90vh;
+  width: 90%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.container h1{
+  color: var(--azul);
+  text-shadow: 0.1em 0.1em 0.8em #333;
+  font-size: 38px;
+}
