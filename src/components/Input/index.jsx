@@ -22,7 +22,7 @@ export default function Input({ title }) {
       const initialDate = parseISO(selectedDate)
       const respawnInterval = title.includes('Boss') ? 12 : 3
       const nextDate = addDays(initialDate, respawnInterval)
-      setNextRespawnDate(format(nextDate, 'yyyy-MM-dd'))
+      setNextRespawnDate(format(nextDate, 'dd-MM-yyyy'))
     } else {
       setNextRespawnDate('')
     }
@@ -40,7 +40,7 @@ export default function Input({ title }) {
       </label>
       {nextRespawnDate ? (
         <h4>
-          Respawn: <p>Dia {nextRespawnDate}</p>
+          Respawn: <p>{nextRespawnDate}</p>
         </h4>
       ) : (
         <h4>Nenhuma data cadastrada</h4>
