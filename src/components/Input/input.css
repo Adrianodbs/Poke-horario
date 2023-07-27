@@ -35,3 +35,31 @@
   padding: 10px;
   border-radius: 4px;
 }
+
+@media screen and (max-width: 550px) {
+  .respawn-title {
+    display: none;
+  }
+
+  .data{
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .label{
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .label span{
+    font-size: 14px;
+  }
+
+  .label input{
+  
+    padding: 3px;
+  
+  }
+}

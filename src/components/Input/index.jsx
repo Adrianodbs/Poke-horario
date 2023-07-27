@@ -40,7 +40,8 @@ export default function Input({ title }) {
       </label>
       {nextRespawnDate ? (
         <h4>
-          Respawn: <p>{nextRespawnDate}</p>
+          <span className="respawn-title">Respawn: </span>
+          <p>Dia {nextRespawnDate}</p>
         </h4>
       ) : (
         <h4>Nenhuma data cadastrada</h4>
