@@ -3,15 +3,15 @@
   width: 90%;
   background-color: #fff;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  gap: 60px;
+  justify-content: center;
   padding: 20px;
   align-items: center;
   border-radius: 8px;
 }
 
-.container h1{
-  color: var(--azul);
-  text-shadow: 0.1em 0.1em 0.8em #333;
-  font-size: 38px;
+.container form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
