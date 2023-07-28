@@ -8,12 +8,11 @@
 }
 
 :root{
-  --azul: #1EB2EA
+  --azul: #0F224A
 }
 
 body{
   min-height: 100vh;
-  background-color: var(--azul);
 }
 
 .app{

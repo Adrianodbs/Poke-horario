@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--azul);
+  background-color: #fff;
   padding: 20px;
   border-radius: 4px;
 }
