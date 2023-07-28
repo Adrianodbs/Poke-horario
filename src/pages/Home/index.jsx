@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="content">
-        <h3>Tempo de reaspawn do dig (3dias)</h3>
+        <h3>Tempo de respawn do dig (3dias)</h3>
         <form className="form">
           <Input title="Dig de Kanto" />
           <Input title="Dig de Johto" />
