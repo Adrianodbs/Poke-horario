@@ -3,11 +3,17 @@
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .data h4{
   display: flex;
   gap: 10px;
+  color: var(--azul);
 }
 
 .data p{
@@ -19,15 +25,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 4px;
+  
 }
 
 .label span{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
+  color: var(--azul);
+  
 }
 
 .label input{

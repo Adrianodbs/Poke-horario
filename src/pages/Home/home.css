@@ -1,6 +1,6 @@
 .container{
   min-height: 90vh;
-  width: 90%;
+  width: 95%;
   background-color: var(--azul);
   display: flex;
   gap: 60px;
@@ -8,11 +8,27 @@
   padding: 20px;
   align-items: center;
   border-radius: 8px;
+  flex-direction: column;
 }
 
-.container form{
+.content{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.content h3{
+  color: #fff;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
