@@ -56,6 +56,14 @@
   .label{
     padding: 10px;
   }
+
+  .label input{
+    width: 100px;
+  }
+
+  .label h4{
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 325px) {
