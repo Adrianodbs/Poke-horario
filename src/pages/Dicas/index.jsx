@@ -1,5 +1,5 @@
-import React from 'react'
+import './dicas.css'
 
 export default function Dicas() {
-  return <div>Dicas</div>
+  return <div className="dicas">Em construção</div>
 }
