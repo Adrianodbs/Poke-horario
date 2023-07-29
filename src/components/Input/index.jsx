@@ -20,7 +20,11 @@ export default function Input({ title }) {
       localStorage.setItem(title, selectedDate)
 
       const initialDate = parseISO(selectedDate)
-      const respawnInterval = title.includes('Boss') ? 12 : 3
+      const respawnInterval = title.includes('Boss')
+        ? 12
+        : title.includes('Dig')
+        ? 3
+        : 4
       const nextDate = addDays(initialDate, respawnInterval)
       setNextRespawnDate(format(nextDate, 'dd-MM-yyyy'))
     } else {
